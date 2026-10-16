@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSI Church of Resurrection | Mogappair West Pastorate, Chennai</title>
+  <meta name="description" content="Official website of CSI Church of Resurrection, Mogappair West Pastorate, Diocese of Madras (Church of South India). Worship services, fellowships, ministries, sanctuary gallery, and leadership.">
+  <link rel="icon" type="image/png" href="assets/images/csi-logo.png">
+
+  <!-- Tailwind CSS v3.4.17 CDN -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            church: {
+              purple: '#5e1940',
+              purpleDark: '#370b24',
+              purpleLight: '#7c2155',
+              gold: '#c59b27',
+              goldLight: '#e4be4c',
+              goldBg: '#fdfaf2',
+              cream: '#faf7f2',
+              slateBg: '#f8fafc',
+              navy: '#0f172a'
+            }
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'Georgia', 'serif'],
+            sans: ['Inter', '"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Cinzel, Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6.5.1 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-church-purple selection:text-white">
+
+  <!-- ================= 1. TOP UTILITY & LIVE STATUS BAR ================= -->
+  <div class="bg-church-purpleDark text-white text-xs py-2.5 px-4 border-b border-church-gold/25">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-center md:text-left">
+      
+      <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-3">
+        <div class="flex items-center gap-1.5 text-church-goldLight font-semibold">
+          <i class="fa-solid fa-cross text-[11px]"></i>
+          <span>&ldquo;That they all may be one&rdquo; &bull; CSI Diocese of Madras</span>
+        </div>
+        <span class="hidden sm:inline text-white/25">|</span>
+        <a href="#schedule" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white/10 hover:bg-white/15 border border-church-gold/30 text-[11px] text-amber-100 transition-colors">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span id="liveServiceText">Sunday Worship: 6:45 AM, 8:30 AM &amp; 6:30 PM</span>
+        </a>
+      </div>
+
+      <div class="flex items-center gap-3 sm:gap-4 text-slate-200">
+        <a href="tel:04426524024" class="hover:text-church-goldLight transition-colors flex items-center gap-1.5 font-semibold">
+          <i class="fa-solid fa-phone text-church-gold text-[11px]"></i>
+          <span>044 2652 4024</span>
+        </a>
+        <span class="text-white/25">|</span>
+        <div class="flex items-center gap-3 text-slate-300">
+          <a href="https://www.youtube.com/@CSICHURCHOFRESURRECTION" target="_blank" rel="noopener noreferrer" class="hover:text-red-300 transition-colors flex items-center gap-1.5 text-red-400 font-bold" title="Watch Live on YouTube">
+            <i class="fa-brands fa-youtube text-sm text-red-500"></i>
+            <span class="text-[11px] hidden sm:inline">YouTube Live</span>
+          </a>
+          <a href="https://www.facebook.com/csichurchofresurrectionofficial" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400 transition-colors" title="Official Facebook Page" aria-label="Facebook">
+            <i class="fa-brands fa-facebook text-sm"></i>
+          </a>
+          <a href="https://www.instagram.com/csi_church_of_resurrection" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400 transition-colors" title="Official Instagram" aria-label="Instagram">
+            <i class="fa-brands fa-instagram text-sm"></i>
+          </a>
+          <a href="https://maps.app.goo.gl/Mn8Xh1cZsBYGiK547" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition-colors" title="Google Maps Location" aria-label="Google Maps">
+            <i class="fa-solid fa-location-dot text-sm"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= 2. STICKY MAIN HEADER & NAVBAR ================= -->
+  <header id="mainNavbar" class="sticky top-0 z-40 bg-white border-b border-slate-200/90 shadow-sm transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between min-h-[4.75rem] sm:min-h-[5.5rem] py-2 gap-2 sm:gap-4">
+        
+        <a href="#home" class="flex items-center gap-2.5 sm:gap-3.5 group min-w-0">
+          <div class="flex items-center gap-1.5 sm:gap-2 p-1.5 rounded-2xl bg-church-goldBg border border-church-gold/30 shadow-sm flex-shrink-0">
+            <img src="assets/images/csi-logo.png" alt="Church of South India Emblem" class="w-9 h-9 sm:w-11 sm:h-11 max-w-full h-auto object-contain group-hover:scale-105 transition-transform">
+            <div class="h-7 w-px bg-church-gold/30"></div>
+            <img src="assets/images/madras-diocese-logo.png" alt="CSI Diocese of Madras Crest" class="w-8 h-8 sm:w-10 sm:h-10 max-w-full h-auto object-contain group-hover:scale-105 transition-transform">
+          </div>
+
+          <div class="flex flex-col justify-center min-w-0">
+            <span class="text-[9px] sm:text-[11px] font-bold uppercase tracking-wider text-church-purple/90 leading-tight">
+              CSI &bull; Diocese of Madras
+            </span>
+            <h2 class="text-xs sm:text-base xl:text-lg font-extrabold font-serif-title text-church-purple leading-snug">
+              CSI Church of Resurrection
+            </h2>
+            <span class="text-[10px] sm:text-xs text-slate-500 font-medium leading-tight">
+              Mogappair West Pastorate, Chennai &ndash; 600 037
+            </span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-1 bg-slate-100/90 p-1.5 rounded-full border border-slate-200/80 text-xs xl:text-sm font-semibold text-slate-700 whitespace-nowrap" aria-label="Primary Navigation">
+          <a href="#home" class="nav-pill-link active px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Home</a>
+          <a href="#schedule" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Worship</a>
+          <a href="#about" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">About</a>
+          <a href="#sanctuary" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Sanctuary</a>
+          <a href="#ministries" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Ministries</a>
+          <a href="#leadership" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Leadership</a>
+          <a href="#sermons" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Live</a>
+          <a href="#gallery" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Gallery</a>
+          <a href="#contact" class="nav-pill-link px-3 xl:px-3.5 py-1.5 rounded-full hover:text-church-purple transition-all">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-2 flex-shrink-0">
+          <button type="button" class="open-prayer-modal text-xs font-bold uppercase tracking-wider bg-church-purple hover:bg-church-purpleLight text-white px-3 sm:px-4 py-2.5 rounded-xl shadow-sm transition-all flex items-center gap-1.5 whitespace-nowrap">
+            <i class="fa-solid fa-hands-praying text-church-goldLight"></i>
+            <span class="hidden sm:inline">Prayer Request</span>
+            <span class="sm:hidden">Prayer</span>
+          </button>
+
+          <button id="mobileMenuBtn" type="button" class="lg:hidden w-10 h-10 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-church-purple flex items-center justify-center focus:outline-none transition-colors" aria-label="Open Navigation Menu">
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MOBILE NAVIGATION DRAWER ================= -->
+  <div id="mobileMenu" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div id="mobileMenuBackdrop" class="fixed inset-0 bg-slate-950/65 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+
+    <div id="mobileMenuPanel" class="relative z-10 w-[85%] max-w-sm h-full bg-white shadow-2xl p-6 flex flex-col justify-between overflow-y-auto -translate-x-full transition-transform duration-300">
+      <div>
+        <div class="flex items-center justify-between pb-4 border-b border-slate-200">
+          <div class="flex items-center gap-2.5">
+            <img src="assets/images/csi-logo.png" alt="CSI Logo" class="w-9 h-9 max-w-full h-auto object-contain">
+            <div>
+              <span class="block text-xs font-extrabold uppercase text-church-purple font-serif-title">CSI Church of Resurrection</span>
+              <span class="block text-[11px] text-slate-500">Mogappair West Pastorate</span>
+            </div>
+          </div>
+          <button id="mobileMenuClose" type="button" class="w-9 h-9 rounded-lg bg-slate-100 text-slate-600 hover:text-slate-900 flex items-center justify-center" aria-label="Close Navigation Menu">
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+
+        <nav class="mt-5 flex flex-col gap-1 font-semibold text-slate-700 text-sm">
+          <a href="#home" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-church text-church-gold w-5 text-center"></i> Home
+          </a>
+          <a href="#schedule" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-clock text-church-gold w-5 text-center"></i> Worship &amp; Fellowships
+          </a>
+          <a href="#about" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-cross text-church-gold w-5 text-center"></i> About Our Parish
+          </a>
+          <a href="#sanctuary" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-place-of-worship text-church-gold w-5 text-center"></i> Sacred Sanctuary
+          </a>
+          <a href="#ministries" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-people-group text-church-gold w-5 text-center"></i> Church Ministries
+          </a>
+          <a href="#leadership" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-user-tie text-church-gold w-5 text-center"></i> Leadership &amp; Office Bearers
+          </a>
+          <a href="#sermons" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-video text-church-gold w-5 text-center"></i> Sermons &amp; YouTube Live
+          </a>
+          <a href="#gallery" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-images text-church-gold w-5 text-center"></i> Church Photo Gallery
+          </a>
+          <a href="#contact" class="mobile-nav-link py-2.5 px-3.5 rounded-xl hover:bg-church-purple/10 hover:text-church-purple flex items-center gap-3 transition-colors">
+            <i class="fa-solid fa-location-dot text-church-gold w-5 text-center"></i> Location &amp; Contact
+          </a>
+        </nav>
+      </div>
+
+      <div class="pt-5 border-t border-slate-200 space-y-2.5">
+        <button type="button" class="open-prayer-modal w-full py-3 px-4 rounded-xl bg-church-goldBg text-church-purple border border-church-gold/40 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2">
+          <i class="fa-solid fa-hands-praying text-church-gold"></i> Submit Prayer Request
+        </button>
+        <a href="https://www.youtube.com/@CSICHURCHOFRESURRECTION" target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 rounded-xl bg-church-purple text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2">
+          <i class="fa-brands fa-youtube text-red-400"></i> Watch Live on YouTube
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= 3. ARCHITECTURAL HERO SECTION ================= -->
+  <section id="home" class="relative bg-church-purpleDark text-white py-14 sm:py-20 lg:py-24 overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none">
+      <img src="assets/images/church/church-exterior-panoramic.jpg" alt="" class="w-full h-full max-w-full object-cover object-center opacity-20 scale-105">
+      <div class="absolute inset-0 bg-gradient-to-br from-[#260618]/95 via-[#481130]/90 to-[#18040f]/95"></div>
+      <div class="absolute inset-0 sacred-cross-pattern"></div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-church-gold/40 text-church-goldLight text-xs font-semibold tracking-wider uppercase">
+            <i class="fa-solid fa-dove"></i>
+            <span>Church of South India &bull; Diocese of Madras</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold font-serif-title tracking-tight text-white leading-[1.15]">
+            Welcome to <br class="hidden sm:inline">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-church-goldLight via-amber-200 to-white">
+              CSI Church of Resurrection
+            </span>
+          </h1>
+
+          <div class="bg-black/30 backdrop-blur-md border-l-4 border-church-gold p-4 sm:p-5 rounded-r-2xl max-w-2xl mx-auto lg:mx-0 text-left space-y-2">
+            <p class="text-sm sm:text-base font-serif italic text-amber-100">
+              &ldquo;That they all may be one&rdquo;
+              <span class="not-italic text-xs text-slate-300 font-sans ml-1.5">&mdash; John 17:21 (CSI Motto)</span>
+            </p>
+            <p class="text-sm sm:text-base font-serif italic text-amber-100/95">
+              &ldquo;I will pour out my spirit on all flesh; your sons and your daughters shall prophesy.&rdquo;
+              <span class="not-italic text-xs text-church-goldLight font-sans ml-1.5">&mdash; Joel 2:28</span>
+            </p>
+          </div>
+
+          <p class="text-sm sm:text-base text-slate-200 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            A loving, Christ-centered parish in <strong>Mogappair West, Chennai</strong>. Celebrating over 25 years of God&rsquo;s faithfulness, we warmly invite you and your family to worship the risen Lord in the beauty of holiness, grow in the Word, and share in vibrant Christian fellowship.
+          </p>
+
+          <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-1">
+            <a href="#schedule" class="px-6 py-3.5 rounded-xl bg-church-gold hover:bg-church-goldLight text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg transition-all flex items-center justify-center gap-2">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span>Worship &amp; Fellowships</span>
+            </a>
+            <a href="https://www.youtube.com/@CSICHURCHOFRESURRECTION" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs uppercase tracking-wider shadow-lg transition-all flex items-center justify-center gap-2">
+              <i class="fa-brands fa-youtube text-base"></i>
+              <span>Watch Live on YouTube</span>
+            </a>
+            <button type="button" class="open-prayer-modal px-5 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 border border-church-gold/40 text-church-goldLight font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center gap-2">
+              <i class="fa-solid fa-hands-praying"></i>
+              <span>Request Prayer</span>
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-2 max-w-2xl mx-auto lg:mx-0 text-left">
+            <a href="#schedule" class="p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors flex items-center gap-3">
+              <div class="w-9 h-9 rounded-lg bg-church-gold/20 text-church-goldLight flex items-center justify-center font-bold text-xs flex-shrink-0">
+                <i class="fa-regular fa-sun"></i>
+              </div>
+              <div>
+                <div class="text-[11px] text-slate-300 uppercase tracking-wider">1st Service</div>
+                <div class="text-sm font-bold text-white">Sun &bull; 6:45 AM</div>
+              </div>
+            </a>
+            <a href="#schedule" class="p-3 rounded-xl bg-church-gold/15 hover:bg-church-gold/25 border border-church-gold/40 transition-colors flex items-center gap-3">
+              <div class="w-9 h-9 rounded-lg bg-church-gold text-slate-950 flex items-center justify-center font-bold text-xs flex-shrink-0">
+                <i class="fa-solid fa-wine-glass"></i>
+              </div>
+              <div>
+                <div class="text-[11px] text-church-goldLight uppercase tracking-wider">Main Service</div>
+                <div class="text-sm font-bold text-white">Sun &bull; 8:30 AM</div>
+              </div>
+            </a>
+            <a href="#schedule" class="p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors flex items-center gap-3">
+              <div class="w-9 h-9 rounded-lg bg-church-gold/20 text-church-goldLight flex items-center justify-center font-bold text-xs flex-shrink-0">
+                <i class="fa-solid fa-moon"></i>
+              </div>
+              <div>
+                <div class="text-[11px] text-slate-300 uppercase tracking-wider">Evening Service</div>
+                <div class="text-sm font-bold text-white">Sun &bull; 6:30 PM</div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="glass-panel-dark rounded-3xl p-4 sm:p-6 shadow-2xl space-y-5">
+            
+            <div class="relative rounded-2xl overflow-hidden border border-white/15 bg-slate-900 aspect-[16/11]">
+              <div class="hero-showcase-slide block opacity-100 w-full h-full relative cursor-pointer" onclick="openLightbox(1)">
+                <img src="assets/images/church/sanctuary-communion-altar.jpg" alt="CSI Church of Resurrection Carved Wooden Sanctuary and Altar" class="w-full h-full max-w-full object-cover object-center">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-transparent"></div>
+                <div class="absolute bottom-3 left-3 right-3 flex items-end justify-between gap-2 text-left">
+                  <div>
+                    <span class="inline-block px-2.5 py-0.5 rounded-md bg-church-gold text-slate-950 text-[10px] font-extrabold uppercase tracking-wider">Main Sanctuary</span>
+                    <p class="text-xs sm:text-sm font-bold text-white mt-1">Carved Wooden Chancel &amp; Holy Communion Table</p>
+                  </div>
+                  <span class="w-8 h-8 rounded-lg bg-black/50 text-white flex items-center justify-center text-xs flex-shrink-0" title="View Fullscreen">
+                    <i class="fa-solid fa-expand"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="hero-showcase-slide hidden opacity-0 w-full h-full relative cursor-pointer" onclick="openLightbox(0)">
+                <img src="assets/images/church/church-exterior-panoramic.jpg" alt="CSI Church of Resurrection Full Exterior Building" class="w-full h-full max-w-full object-cover object-center">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-transparent"></div>
+                <div class="absolute bottom-3 left-3 right-3 flex items-end justify-between gap-2 text-left">
+                  <div>
+                    <span class="inline-block px-2.5 py-0.5 rounded-md bg-church-gold text-slate-950 text-[10px] font-extrabold uppercase tracking-wider">Church Complex</span>
+                    <p class="text-xs sm:text-sm font-bold text-white mt-1">Sanctuary Facade &amp; Welcome Arch, Mogappair West</p>
+                  </div>
+                  <span class="w-8 h-8 rounded-lg bg-black/50 text-white flex items-center justify-center text-xs flex-shrink-0">
+                    <i class="fa-solid fa-expand"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="hero-showcase-slide hidden opacity-0 w-full h-full relative cursor-pointer" onclick="openLightbox(2)">
+                <img src="assets/images/church/church-entrance-arch.jpg" alt="CSI Church of Resurrection Entrance Archway" class="w-full h-full max-w-full object-cover object-top">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-transparent"></div>
+                <div class="absolute bottom-3 left-3 right-3 flex items-end justify-between gap-2 text-left">
+                  <div>
+                    <span class="inline-block px-2.5 py-0.5 rounded-md bg-church-gold text-slate-950 text-[10px] font-extrabold uppercase tracking-wider">Entrance Arch</span>
+                    <p class="text-xs sm:text-sm font-bold text-white mt-1">Main Archway &bull; Mogappair West Pastorate</p>
+                  </div>
+                  <span class="w-8 h-8 rounded-lg bg-black/50 text-white flex items-center justify-center text-xs flex-shrink-0">
+                    <i class="fa-solid fa-expand"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-2">
+              <button type="button" onclick="switchHeroPhoto(0)" class="hero-photo-tab active py-1.5 px-2 rounded-lg bg-white/10 text-slate-200 text-[11px] font-bold transition-all text-center">
+                <i class="fa-solid fa-place-of-worship mr-1"></i> Sanctuary
+              </button>
+              <button type="button" onclick="switchHeroPhoto(1)" class="hero-photo-tab py-1.5 px-2 rounded-lg bg-white/10 text-slate-200 text-[11px] font-bold transition-all text-center">
+                <i class="fa-solid fa-church mr-1"></i> Full Exterior
+              </button>
+              <button type="button" onclick="switchHeroPhoto(2)" class="hero-photo-tab py-1.5 px-2 rounded-lg bg-white/10 text-slate-200 text-[11px] font-bold transition-all text-center">
+                <i class="fa-solid fa-archway mr-1"></i> Archway
+              </button>
+            </div>
+
+            <div class="bg-black/35 rounded-2xl p-4 border border-white/10 space-y-2.5 text-xs">
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between pb-2 border-b border-white/10 gap-0.5">
+                <span class="text-slate-400">Presbyter-in-Charge</span>
+                <span class="font-bold text-church-goldLight sm:text-right">Rev. Ph. D. Henry Jeba Richard</span>
+              </div>
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between pb-2 border-b border-white/10 gap-0.5">
+                <span class="text-slate-400">Honorary Secretary</span>
+                <span class="font-semibold text-slate-100 sm:text-right">Mr. D. Joshua Sathyaseelan</span>
+              </div>
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between pb-2 border-b border-white/10 gap-0.5">
+                <span class="text-slate-400">Honorary Treasurer</span>
+                <span class="font-semibold text-slate-100 sm:text-right">Mr. J. Prince Rajkumar</span>
+              </div>
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between pt-0.5 gap-0.5">
+                <span class="text-slate-400">Parish Address</span>
+                <span class="text-slate-200 sm:text-right">No: 3/3 &amp; 4, Vellalar St, Mogappair West</span>
+              </div>
+            </div>
+
+            <a href="https://maps.app.goo.gl/Mn8Xh1cZsBYGiK547" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold text-xs tracking-wide flex items-center justify-center gap-2 transition-all">
+              <i class="fa-solid fa-location-dot text-church-goldLight"></i>
+              <span>Get Directions on Google Maps</span>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 4. WORSHIP & FELLOWSHIP SCHEDULE ================= -->
+  <section id="schedule" class="py-16 sm:py-20 lg:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-10">
+        <span class="inline-block text-xs font-bold tracking-widest uppercase text-church-purple bg-church-purple/10 px-3.5 py-1.5 rounded-full">
+          Worship &amp; Regular Gatherings
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-slate-900">
+          Worship Services &amp; Fellowship Timings
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Explore our Sunday Divine Worship services, age-group fellowships, weekday intercessory prayers, and choir rehearsals.
+        </p>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 bg-white p-3 sm:p-4 rounded-2xl border border-slate-200 shadow-sm mb-8">
+        <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 lg:pb-0">
+          <button type="button" data-tab="all" class="tab-btn active px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all bg-slate-100 text-slate-700">
+            All Gatherings <span class="ml-1 opacity-80">(14)</span>
+          </button>
+          <button type="button" data-tab="sunday-services" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+            Sunday Worship <span class="ml-1 opacity-75">(3)</span>
+          </button>
+          <button type="button" data-tab="sunday-fellowships" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+            Sunday Fellowships <span class="ml-1 opacity-75">(5)</span>
+          </button>
+          <button type="button" data-tab="weekday-prayers" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+            Weekday Prayers <span class="ml-1 opacity-75">(4)</span>
+          </button>
+          <button type="button" data-tab="choir-music" class="tab-btn px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all bg-slate-100 text-slate-700 hover:bg-slate-200">
+            Choir Practices <span class="ml-1 opacity-75">(2)</span>
+          </button>
+        </div>
+
+        <div class="relative w-full lg:w-64 flex-shrink-0">
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
+          <input type="text" id="scheduleSearchInput" placeholder="Filter timings (e.g. Communion, Choir)..." class="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:border-church-purple text-xs outline-none transition-colors">
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6" id="scheduleCardsGrid">
+        
+        <div data-category="sunday-services" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-church-purple bg-church-purple/10 px-2.5 py-1 rounded-md">Every Sunday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-church mr-1 text-church-gold"></i> Main Sanctuary</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">First Sunday Service</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-base sm:text-lg">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>6:45 AM</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Early morning liturgy, traditional hymns, responsive psalm readings, and gospel meditation to begin the Lord&rsquo;s Day in quiet reverence.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Language: Tamil</span>
+            <span class="font-semibold text-church-purple">Morning Worship</span>
+          </div>
+        </div>
+
+        <div data-category="sunday-services" class="schedule-card flex flex-col justify-between bg-gradient-to-br from-white via-white to-church-goldBg rounded-2xl p-6 shadow-md border-2 border-church-purple/30 hover-lift">
+          <div>
+            <div class="flex flex-wrap items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-white bg-church-purple px-2.5 py-1 rounded-md">Every Sunday</span>
+              <span class="text-amber-900 font-bold bg-amber-100 px-2.5 py-1 rounded-md">
+                <i class="fa-solid fa-wine-glass mr-1 text-church-gold"></i> 1st &amp; 3rd Sun Communion
+              </span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Second Sunday Service</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-base sm:text-lg">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>8:30 AM</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Main pastoral divine worship service featuring church choir anthems, congregational praise, sermon, and Holy Communion celebrated on the 1st and 3rd Sundays of every month.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-church-gold/25 flex items-center justify-between text-xs text-slate-700">
+            <span class="font-semibold text-amber-900">Holy Communion (1st &amp; 3rd Sun)</span>
+            <span class="font-bold text-church-purple">Main Divine Service</span>
+          </div>
+        </div>
+
+        <div data-category="sunday-services" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-church-purple bg-church-purple/10 px-2.5 py-1 rounded-md">Every Sunday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-moon mr-1 text-church-gold"></i> Main Sanctuary</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Sunday Evening Service</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-base sm:text-lg">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>6:30 PM</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Evening praise, family testimonies, prayer of intercession, and biblical preaching to conclude the Sabbath Day with thanksgiving.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>All Families Welcome</span>
+            <span class="font-semibold text-church-purple">Evening Worship</span>
+          </div>
+        </div>
+
+        <div data-category="sunday-fellowships" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-amber-800 bg-amber-100 px-2.5 py-1 rounded-md">Every Sunday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-graduation-cap mr-1 text-church-gold"></i> Sunday School Halls</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Sunday School</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>After 8:30 AM Service Ends</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Scripture lessons, action choruses, memory verses, and Christian moral foundations for children from beginner through senior classes.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Children &amp; Students</span>
+            <span class="font-semibold text-amber-800">Christian Education</span>
+          </div>
+        </div>
+
+        <div data-category="sunday-fellowships" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-teal-800 bg-teal-100 px-2.5 py-1 rounded-md">Every Sunday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-user-group mr-1 text-church-gold"></i> Teens Hall</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Teens Fellowship</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>After 8:30 AM Service Ends</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Spiritual mentorship and age-specific discussions helping teenagers navigate adolescent life with strong biblical convictions.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Ages 13&ndash;19</span>
+            <span class="font-semibold text-teal-800">Teens Ministry</span>
+          </div>
+        </div>
+
+        <div data-category="sunday-fellowships" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-indigo-800 bg-indigo-100 px-2.5 py-1 rounded-md">Every Sunday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-fire mr-1 text-church-gold"></i> Youth Room</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Youth Fellowship (CYA)</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>After 8:30 AM Service Ends</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Inspiring college youth and young professionals through interactive Bible study, contemporary praise, leadership training, and outreach.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Young Adults</span>
+            <span class="font-semibold text-indigo-800">CYA Fellowship</span>
+          </div>
+        </div>
+
+        <div data-category="sunday-fellowships" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-blue-800 bg-blue-100 px-2.5 py-1 rounded-md">Every Sunday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-shield mr-1 text-church-gold"></i> Parish Hall</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Men&rsquo;s Fellowship</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>After 8:30 AM Service Ends</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Bringing fathers and men of the parish together for prayer, biblical reflection on family leadership, and active church service.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Men &amp; Fathers</span>
+            <span class="font-semibold text-blue-800">Men&rsquo;s Ministry</span>
+          </div>
+        </div>
+
+        <div data-category="sunday-fellowships" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-rose-800 bg-rose-100 px-2.5 py-1 rounded-md">Alternate Sundays</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-ring mr-1 text-church-gold"></i> Fellowship Hall</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Young Couple Fellowship</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>Alternate Sundays (Post 8:30 AM)</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Nurturing newly married couples and young families in God&rsquo;s design for marriage, Christian parenting, and Christ-centered homes.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Young Couples</span>
+            <span class="font-semibold text-rose-800">Family Life Ministry</span>
+          </div>
+        </div>
+
+        <div data-category="weekday-prayers" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-emerald-800 bg-emerald-100 px-2.5 py-1 rounded-md">Every Tuesday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-house mr-1 text-church-gold"></i> Member Residences</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Cottage Prayer Meeting</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>Tuesday Evening</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Neighborhood home fellowship gatherings hosted in parish families&rsquo; residences across Mogappair West for hymns, Scripture, and household blessing.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Area-wise Rotation</span>
+            <span class="font-semibold text-emerald-800">Home Fellowship</span>
+          </div>
+        </div>
+
+        <div data-category="weekday-prayers" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-purple-900 bg-purple-100 px-2.5 py-1 rounded-md">Every Friday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-hands-praying mr-1 text-church-gold"></i> Main Sanctuary</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Fasting &amp; Intercessory Prayer</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>10:00 AM</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Dedicated Friday intercessory prayer seeking divine healing, deliverance, family blessings, and praying over submitted prayer requests.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Open to All</span>
+            <span class="font-semibold text-purple-900">Intercessory Prayer</span>
+          </div>
+        </div>
+
+        <div data-category="weekday-prayers" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-rose-800 bg-rose-100 px-2.5 py-1 rounded-md">Every Saturday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-heart mr-1 text-church-gold"></i> Fellowship Hall</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Women&rsquo;s Fellowship</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>5:30 PM</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Weekly gathering of mothers and women of our church for Bible meditation, chain prayer, hospital/home visits, and charitable outreach.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Mothers &amp; Women</span>
+            <span class="font-semibold text-rose-800">WF Fellowship</span>
+          </div>
+        </div>
+
+        <div data-category="choir-music" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-sky-800 bg-sky-100 px-2.5 py-1 rounded-md">Every Saturday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-music mr-1 text-church-gold"></i> Choir Gallery</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Junior Choir Practice</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>5:45 PM</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Vocal training, hymn singing, and choir discipline for young voices leading praise during Sunday services and special festivals.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Young Choristers</span>
+            <span class="font-semibold text-sky-800">Junior Choir</span>
+          </div>
+        </div>
+
+        <div data-category="choir-music" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-indigo-800 bg-indigo-100 px-2.5 py-1 rounded-md">Every Saturday</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-music mr-1 text-church-gold"></i> Choir Gallery</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Senior Choir Practice</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-clock text-church-gold"></i>
+              <span>6:45 PM</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Four-part harmony vocal rehearsal, sacred anthem preparation, and CSI liturgical setting practice for Sunday Divine Worship.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Senior Choristers</span>
+            <span class="font-semibold text-indigo-800">Senior Choir</span>
+          </div>
+        </div>
+
+        <div data-category="weekday-prayers" class="schedule-card flex flex-col justify-between bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift">
+          <div>
+            <div class="flex items-center justify-between text-xs mb-3 gap-2">
+              <span class="font-bold text-amber-900 bg-amber-100 px-2.5 py-1 rounded-md">Periodic / Special</span>
+              <span class="text-slate-500 font-medium"><i class="fa-solid fa-heart-pulse mr-1 text-church-gold"></i> Church &amp; Home Visits</span>
+            </div>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900">Elders Fellowship &amp; Care</h3>
+            <div class="flex items-center gap-2 mt-2 text-church-purple font-bold text-sm sm:text-base">
+              <i class="fa-regular fa-calendar-check text-church-gold"></i>
+              <span>Periodic Gatherings &amp; Home Visits</span>
+            </div>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Special fellowship gatherings alongside pastoral home visitation and home Holy Communion honoring the senior members of our parish.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Senior Citizens &amp; Elders</span>
+            <span class="font-semibold text-amber-900">Elders Care</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="scheduleEmptyState" class="hidden text-center py-12 bg-white rounded-2xl border border-slate-200 mt-6">
+        <i class="fa-solid fa-calendar-xmark text-3xl text-slate-400 mb-2"></i>
+        <p class="text-sm font-semibold text-slate-700">No gatherings match your current search filter.</p>
+        <p class="text-xs text-slate-500 mt-1">Try clearing the search box or switching to &ldquo;All Gatherings&rdquo;.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 5. ABOUT US & PASTORAL GREETING ================= -->
+  <section id="about" class="py-16 sm:py-20 lg:py-24 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <span class="inline-block text-xs font-bold tracking-widest uppercase text-church-purple bg-church-purple/10 px-3.5 py-1.5 rounded-full">
+            Our Heritage &amp; Identity
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-slate-900 leading-tight">
+            A Living Sanctuary of Faith in Mogappair West
+          </h2>
+          
+          <div class="space-y-4 text-slate-600 leading-relaxed text-sm sm:text-base">
+            <p>
+              The <strong>CSI Church of Resurrection</strong> is a vibrant parish within the <strong>Diocese of Madras</strong>, belonging to the historic <strong>Church of South India (CSI)</strong>. Situated at Vellalar Street, Mogappair West, Chennai, our church stands as a place of spiritual refuge, reverent liturgical worship, and Christ-like hospitality.
+            </p>
+            <p>
+              Embodying the ecumenical vision <em class="text-church-purple font-semibold">&ldquo;That they all may be one&rdquo; (John 17:21)</em>, families and believers gather here to celebrate the resurrection power of Jesus Christ through the preached Word, the Holy Sacraments, and compassionate Christian service.
+            </p>
+            <p>
+              Under the pastoral leadership of <strong>Rev. Ph. D. Henry Jeba Richard</strong>, alongside our dedicated Pastorate Committee, we are committed to nurturing children and youth, strengthening families, caring for our elders, and sharing the Gospel of peace.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-church-purple/10 text-church-purple flex items-center justify-center flex-shrink-0">
+                <i class="fa-solid fa-book-bible text-church-gold"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Biblical Truth</h4>
+                <p class="text-xs text-slate-500 mt-0.5 leading-relaxed">Firm grounding in the Holy Scriptures and historic apostolic faith.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-church-purple/10 text-church-purple flex items-center justify-center flex-shrink-0">
+                <i class="fa-solid fa-dove text-church-gold"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Holy Sacraments</h4>
+                <p class="text-xs text-slate-500 mt-0.5 leading-relaxed">Holy Baptism, Confirmation, and Holy Communion on 1st &amp; 3rd Sundays.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-church-purple/10 text-church-purple flex items-center justify-center flex-shrink-0">
+                <i class="fa-solid fa-people-roof text-church-gold"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Pastoral Care</h4>
+                <p class="text-xs text-slate-500 mt-0.5 leading-relaxed">Area cottage prayers, hospital visits, and dedicated home intercession.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-church-purple/10 text-church-purple flex items-center justify-center flex-shrink-0">
+                <i class="fa-solid fa-hand-holding-heart text-church-gold"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Fellowship for All</h4>
+                <p class="text-xs text-slate-500 mt-0.5 leading-relaxed">Vibrant wings for children, teens, youth, couples, men, women, and elders.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-church-purpleDark to-church-purple text-white p-6 sm:p-8 rounded-3xl shadow-xl relative overflow-hidden">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-12 h-12 rounded-2xl bg-white/10 border border-church-gold/40 flex items-center justify-center text-church-goldLight text-xl flex-shrink-0">
+                <i class="fa-solid fa-cross"></i>
+              </div>
+              <div>
+                <span class="text-[11px] font-bold uppercase tracking-wider text-church-goldLight">A Pastoral Greeting</span>
+                <h3 class="text-lg sm:text-xl font-bold font-serif-title">Rev. Ph. D. Henry Jeba Richard</h3>
+                <p class="text-xs text-slate-300">Presbyter-in-Charge &bull; Mogappair West Pastorate</p>
+              </div>
+            </div>
+
+            <blockquote class="text-xs sm:text-sm text-slate-100 italic leading-relaxed border-l-2 border-church-gold pl-4 py-1">
+              &ldquo;Grace, peace, and blessings to you in the precious name of our Risen Lord and Saviour Jesus Christ! Whether you are a longstanding member of our parish or visiting for the first time, you have a home here. May the Holy Spirit strengthen your household and walk with you always.&rdquo;
+            </blockquote>
+          </div>
+
+        </div>
+
+        <div class="lg:col-span-6 space-y-4">
+          <div class="group relative rounded-3xl overflow-hidden shadow-lg border border-slate-200 bg-slate-900 cursor-pointer" onclick="openLightbox(0)">
+            <div class="aspect-[16/9] w-full overflow-hidden">
+              <img src="assets/images/church/church-exterior-panoramic.jpg" alt="CSI Church of Resurrection Mogappair West Exterior Building and Arch" class="w-full h-full max-w-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+            <div class="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
+              <div>
+                <span class="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-church-gold text-slate-950">Parish Complex</span>
+                <h3 class="text-sm sm:text-base font-bold font-serif-title mt-1">CSI Church of Resurrection &bull; Mogappair West</h3>
+                <p class="text-xs text-slate-200">No: 3/3 &amp; 4, Vellalar Street, Chennai &ndash; 600 037</p>
+              </div>
+              <span class="w-9 h-9 rounded-xl bg-white/15 backdrop-blur-md flex items-center justify-center text-xs">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="group relative rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-slate-900 cursor-pointer" onclick="openLightbox(1)">
+              <div class="aspect-[4/3] w-full overflow-hidden">
+                <img src="assets/images/church/sanctuary-communion-altar.jpg" alt="Carved Wooden Sanctuary and Holy Communion Table" class="w-full h-full max-w-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-3 left-3 right-3 text-white">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-church-goldLight">Interior Chancel</span>
+                <h4 class="text-xs sm:text-sm font-bold font-serif-title">Sanctuary &amp; Communion Table</h4>
+              </div>
+            </div>
+
+            <div class="group relative rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-slate-900 cursor-pointer" onclick="openLightbox(2)">
+              <div class="aspect-[4/3] w-full overflow-hidden">
+                <img src="assets/images/church/church-entrance-arch.jpg" alt="CSI Church of Resurrection Illuminated Entrance Arch" class="w-full h-full max-w-full object-cover object-top group-hover:scale-105 transition-transform duration-500">
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-3 left-3 right-3 text-white">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-church-goldLight">Welcome Archway</span>
+                <h4 class="text-xs sm:text-sm font-bold font-serif-title">Illuminated Front Entrance</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 6. SACRED SANCTUARY & ALTAR HIGHLIGHT ================= -->
+  <section id="sanctuary" class="py-16 sm:py-20 bg-church-cream border-y border-amber-200/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <div class="lg:col-span-6 order-2 lg:order-1">
+          <div class="grid grid-cols-2 gap-3 sm:gap-4">
+            <div class="col-span-2 rounded-2xl overflow-hidden shadow-lg border border-amber-900/15 cursor-pointer group" onclick="openLightbox(3)">
+              <div class="aspect-[16/10] w-full overflow-hidden bg-slate-900">
+                <img src="assets/images/church/sanctuary-chancel-wide.jpg" alt="Stained Glass Windows and Altar Cross of CSI Church of Resurrection" class="w-full h-full max-w-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+              </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-md border border-amber-900/15 cursor-pointer group" onclick="openLightbox(4)">
+              <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900">
+                <img src="assets/images/church/sanctuary-chancel-floral.jpg" alt="26th Anniversary Floral Altar" class="w-full h-full max-w-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+              </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-md border border-amber-900/15 cursor-pointer group" onclick="openLightbox(5)">
+              <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900">
+                <img src="assets/images/church/sanctuary-anniversary-arch.jpg" alt="Carved Wooden Sanctuary Arch" class="w-full h-full max-w-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 order-1 lg:order-2 space-y-5">
+          <span class="inline-block text-xs font-bold tracking-widest uppercase text-amber-900 bg-amber-200/70 px-3.5 py-1.5 rounded-full">
+            Sacred Architecture &amp; Liturgy
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-slate-900 leading-tight">
+            &ldquo;Worship the Lord in the Beauty of Holiness&rdquo;
+          </h2>
+          <div class="p-4 rounded-2xl bg-white border-l-4 border-church-purple shadow-sm">
+            <p class="text-sm sm:text-base font-bold text-church-purple">
+              &ldquo;பரிசுத்த அலங்காரத்துடனே கர்த்தரைத் தொழுது கொள்ளுங்கள்&rdquo;
+            </p>
+            <p class="text-xs text-slate-500 mt-1">
+              Inscribed in Tamil upon our carved wooden Communion Altar &mdash; Psalm 29:2 / Psalm 96:9
+            </p>
+          </div>
+          <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+            Our sanctuary features a handcrafted teakwood chancel arch framing the central illuminated Cross. Flanking the altar are twin stained-glass windows depicting the <strong>Holy Eucharist (Bread, Chalice, Wheat &amp; Grapes)</strong> on the left and the <strong>Descending Dove of the Holy Spirit</strong> on the right, crowned by the ceiling medallion of the Holy Spirit.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+            <div class="p-3.5 rounded-xl bg-white border border-amber-900/10">
+              <div class="text-xs font-bold text-church-purple uppercase">Left Window</div>
+              <div class="text-sm font-bold text-slate-900 mt-0.5">Bread &amp; Cup</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">Holy Communion</div>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white border border-amber-900/10">
+              <div class="text-xs font-bold text-church-purple uppercase">Center Apse</div>
+              <div class="text-sm font-bold text-slate-900 mt-0.5">The Risen Cross</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">Resurrection Life</div>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white border border-amber-900/10">
+              <div class="text-xs font-bold text-church-purple uppercase">Right Window</div>
+              <div class="text-sm font-bold text-slate-900 mt-0.5">Dove of Peace</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">Holy Spirit Power</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 7. CHURCH MINISTRIES ================= -->
+  <section id="ministries" class="py-16 sm:py-20 lg:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
+        <span class="inline-block text-xs font-bold tracking-widest uppercase text-church-purple bg-church-purple/10 px-3.5 py-1.5 rounded-full">
+          Body of Christ
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-slate-900">
+          Fellowships &amp; Church Ministries
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          From our youngest Sunday School children to our revered elders, every member has a vital place to belong, grow, and serve.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Sunday School</h3>
+            <p class="text-xs font-semibold text-amber-800 mt-1 uppercase tracking-wider">Sundays after 8:30 AM Service</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Equipping children with strong biblical foundations, scripture memory verses, joyful singing, Christian values, and annual VBS celebrations.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Primary to Senior</span>
+            <span class="font-bold text-slate-700">Children&rsquo;s Wing</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-800 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-user-group"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Teens Fellowship</h3>
+            <p class="text-xs font-semibold text-teal-800 mt-1 uppercase tracking-wider">Sundays after 8:30 AM Service</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Guiding teenagers through their formative school years with relevant Bible study, Christ-centered friendships, and personal mentorship.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Teens (Ages 13&ndash;19)</span>
+            <span class="font-bold text-slate-700">Teens Wing</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-purple-100 text-church-purple flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-fire"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Youth Fellowship (CYA)</h3>
+            <p class="text-xs font-semibold text-church-purple mt-1 uppercase tracking-wider">Sundays after 8:30 AM Service</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Empowering college students and young professionals through worship, Bible study, youth retreats, evangelism, and parish service.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Young Men &amp; Women</span>
+            <span class="font-bold text-slate-700">CYA Wing</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-shield"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Men&rsquo;s Fellowship</h3>
+            <p class="text-xs font-semibold text-blue-800 mt-1 uppercase tracking-wider">Sundays after 8:30 AM Service</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Strengthening men as spiritual leaders in their homes and church through prayer, Christian brotherhood, and outreach support.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Fathers &amp; Men</span>
+            <span class="font-bold text-slate-700">Men&rsquo;s Wing</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Women&rsquo;s Fellowship</h3>
+            <p class="text-xs font-semibold text-rose-800 mt-1 uppercase tracking-wider">Every Saturday at 5:30 PM</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              A devoted fellowship of prayerful mothers and women engaged in Word meditation, chain prayers, visiting the sick, and charity.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Mothers &amp; Women</span>
+            <span class="font-bold text-slate-700">WF Wing</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-pink-100 text-pink-800 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-ring"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Young Couple Fellowship</h3>
+            <p class="text-xs font-semibold text-pink-800 mt-1 uppercase tracking-wider">Alternate Sundays (Post 8:30 AM)</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Encouraging newly wedded couples and young parents to build Christ-honoring marriages, prayerful homes, and lasting fellowship.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Young Families</span>
+            <span class="font-bold text-slate-700">Family Ministry</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-800 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-music"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Choir &amp; Music Ministry</h3>
+            <p class="text-xs font-semibold text-sky-800 mt-1 uppercase tracking-wider">Junior: Sat 5:45 PM &bull; Senior: Sat 6:45 PM</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Carrying forward the rich choral heritage of the CSI liturgy through sacred anthems, four-part harmony, and festival music services.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Senior &amp; Junior Choirs</span>
+            <span class="font-bold text-slate-700">Music Ministry</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-900 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-hands-praying"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Fasting Prayer Ministry</h3>
+            <p class="text-xs font-semibold text-purple-900 mt-1 uppercase tracking-wider">Every Friday at 10:00 AM</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Standing in the gap through fasting and fervent intercession for parish families, healing of the sick, and spiritual revival.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>All Congregants</span>
+            <span class="font-bold text-slate-700">Intercession</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-900 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif-title text-slate-900">Elders Fellowship &amp; Care</h3>
+            <p class="text-xs font-semibold text-amber-900 mt-1 uppercase tracking-wider">Periodic Gatherings &amp; Home Visits</p>
+            <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+              Honoring our senior citizens through periodic fellowship meetings, pastoral visitation, and home Holy Communion for the elderly.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+            <span>Seniors &amp; Elders</span>
+            <span class="font-bold text-slate-700">Pastoral Care</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 8. CHURCH LEADERSHIP ================= -->
+  <section id="leadership" class="py-16 sm:py-20 lg:py-24 bg-white border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
+        <span class="inline-block text-xs font-bold tracking-widest uppercase text-church-purple bg-church-purple/10 px-3.5 py-1.5 rounded-full">
+          Pastorate Office Bearers
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-slate-900">
+          Church Leadership &amp; Office Bearers
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Faithfully served by our Presbyter-in-Charge and the honorary office bearers of the Mogappair West Pastorate Committee.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto">
+        
+        <div class="bg-gradient-to-b from-church-goldBg/60 to-white rounded-3xl p-6 sm:p-8 text-center border-2 border-church-purple/35 shadow-sm hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-16 h-16 mx-auto rounded-2xl bg-church-purple text-white flex items-center justify-center text-2xl mb-4 shadow-md">
+              <i class="fa-solid fa-cross text-church-goldLight"></i>
+            </div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-white bg-church-purple px-3 py-1 rounded-full inline-block mb-3">
+              Presbyter-in-Charge
+            </span>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900 leading-snug">
+              Rev. Ph. D. Henry Jeba Richard
+            </h3>
+            <p class="text-xs font-semibold text-church-purple mt-1">Pastor &amp; Chairman</p>
+            <p class="text-xs text-slate-500 mt-2">
+              CSI Church of Resurrection Pastorate
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 text-xs text-slate-500 font-medium">
+            Pastoral Oversight &amp; Spiritual Care
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 text-center border border-slate-200 shadow-sm hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-16 h-16 mx-auto rounded-2xl bg-white text-slate-700 border border-slate-200 flex items-center justify-center text-2xl mb-4 shadow-sm">
+              <i class="fa-solid fa-file-pen text-church-gold"></i>
+            </div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-700 bg-slate-200 px-3 py-1 rounded-full inline-block mb-3">
+              Honorary Secretary
+            </span>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900 leading-snug">
+              Mr. D. Joshua Sathyaseelan
+            </h3>
+            <p class="text-xs font-semibold text-church-purple mt-1">Secretary</p>
+            <p class="text-xs text-slate-500 mt-2">
+              Pastorate Committee
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 text-xs text-slate-500 font-medium">
+            Administration &amp; Secretariat
+          </div>
+        </div>
+
+        <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 text-center border border-slate-200 shadow-sm hover-lift flex flex-col justify-between">
+          <div>
+            <div class="w-16 h-16 mx-auto rounded-2xl bg-white text-slate-700 border border-slate-200 flex items-center justify-center text-2xl mb-4 shadow-sm">
+              <i class="fa-solid fa-coins text-church-gold"></i>
+            </div>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-700 bg-slate-200 px-3 py-1 rounded-full inline-block mb-3">
+              Honorary Treasurer
+            </span>
+            <h3 class="text-lg sm:text-xl font-bold font-serif-title text-slate-900 leading-snug">
+              Mr. J. Prince Rajkumar
+            </h3>
+            <p class="text-xs font-semibold text-church-purple mt-1">Treasurer</p>
+            <p class="text-xs text-slate-500 mt-2">
+              Pastorate Committee
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200/80 text-xs text-slate-500 font-medium">
+            Finance &amp; Stewardship
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-10 p-5 rounded-2xl bg-slate-50 border border-slate-200 text-center max-w-5xl mx-auto">
+        <p class="text-xs sm:text-sm text-slate-600 font-medium">
+          Served in unity with the <strong>Pastorate Committee &amp; The Congregation</strong> &bull; CSI Church of Resurrection, Mogappair West
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 9. SERMONS, LIVE STREAMING & DIGITAL MINISTRY ================= -->
+  <section id="sermons" class="py-16 sm:py-20 lg:py-24 bg-slate-900 text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
+        <span class="inline-block text-xs font-bold tracking-widest uppercase text-church-goldLight bg-white/10 px-3.5 py-1.5 rounded-full border border-white/10">
+          Digital Ministry
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-white">
+          Sermons &amp; Live Streaming
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+          Join our online congregation from anywhere in the world. We livestream our Sunday worship services and special festival services on YouTube.
+        </p>
+      </div>
+
+      <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-8 lg:p-10 shadow-2xl">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <div class="lg:col-span-7">
+            <div class="aspect-video bg-slate-950 rounded-2xl overflow-hidden border border-white/15 relative shadow-2xl group flex flex-col justify-center items-center text-center p-6">
+              <img src="assets/images/church/sanctuary-chancel-wide.jpg" alt="CSI Church of Resurrection Sanctuary Livestream" class="absolute inset-0 w-full h-full max-w-full object-cover object-center opacity-35 group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-slate-950/40"></div>
+              
+              <div class="relative z-10 flex flex-col items-center">
+                <a href="https://www.youtube.com/@CSICHURCHOFRESURRECTION" target="_blank" rel="noopener noreferrer" class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-red-600 hover:bg-red-700 flex items-center justify-center text-white text-2xl sm:text-3xl shadow-xl transition-transform group-hover:scale-110 mb-4" aria-label="Watch on YouTube">
+                  <i class="fa-solid fa-play ml-1"></i>
+                </a>
+                <h3 class="text-lg sm:text-2xl font-bold font-serif-title text-white">CSI CHURCH OF RESURRECTION</h3>
+                <p class="text-xs sm:text-sm text-slate-300 mt-1">Official YouTube Channel &bull; Sunday Worship Livestreams &amp; Sermons</p>
+                <div class="mt-5">
+                  <a href="https://www.youtube.com/@CSICHURCHOFRESURRECTION" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 bg-red-600 hover:bg-red-700 text-white text-xs font-bold uppercase tracking-wider rounded-xl inline-flex items-center gap-2 shadow-lg transition-colors">
+                    <i class="fa-brands fa-youtube text-sm"></i> Subscribe &amp; Watch Live
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 space-y-4">
+            <h3 class="text-xl sm:text-2xl font-bold font-serif-title text-white">Connect With Our Parish Online</h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Follow our official social channels for weekly service announcements, festival updates, choir videos, and event photographs.
+            </p>
+
+            <div class="space-y-3 pt-2">
+              <a href="https://www.youtube.com/@CSICHURCHOFRESURRECTION" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/10 transition-all group">
+                <div class="flex items-center gap-3.5 min-w-0">
+                  <div class="w-11 h-11 rounded-xl bg-red-600/20 text-red-400 flex items-center justify-center text-xl flex-shrink-0">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                  <div class="min-w-0">
+                    <h4 class="text-sm font-bold text-white group-hover:text-red-300 transition-colors">YouTube Channel</h4>
+                    <p class="text-xs text-slate-400 truncate">@CSICHURCHOFRESURRECTION</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white flex-shrink-0 ml-2"></i>
+              </a>
+
+              <a href="https://www.facebook.com/csichurchofresurrectionofficial" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/10 transition-all group">
+                <div class="flex items-center gap-3.5 min-w-0">
+                  <div class="w-11 h-11 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl flex-shrink-0">
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                  <div class="min-w-0">
+                    <h4 class="text-sm font-bold text-white group-hover:text-blue-300 transition-colors">Facebook Page</h4>
+                    <p class="text-xs text-slate-400 truncate">@csichurchofresurrectionofficial</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white flex-shrink-0 ml-2"></i>
+              </a>
+
+              <a href="https://www.instagram.com/csi_church_of_resurrection" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/10 transition-all group">
+                <div class="flex items-center gap-3.5 min-w-0">
+                  <div class="w-11 h-11 rounded-xl bg-pink-600/20 text-pink-400 flex items-center justify-center text-xl flex-shrink-0">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div class="min-w-0">
+                    <h4 class="text-sm font-bold text-white group-hover:text-pink-300 transition-colors">Instagram Profile</h4>
+                    <p class="text-xs text-slate-400 truncate">@csi_church_of_resurrection</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white flex-shrink-0 ml-2"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 10. CURATED CHURCH PHOTO GALLERY ================= -->
+  <section id="gallery" class="py-16 sm:py-20 lg:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-10">
+        <span class="inline-block text-xs font-bold tracking-widest uppercase text-church-purple bg-church-purple/10 px-3.5 py-1.5 rounded-full">
+          Visual Tour
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-slate-900">
+          Sanctuary &amp; Parish Photo Gallery
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Explore our church exterior, illuminated welcome arch, carved wooden sanctuary, stained-glass artistry, and 26th Anniversary celebrations. Click any photograph to view full screen.
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center gap-2 pt-3">
+          <button type="button" data-gallery-tab="all" class="gallery-tab-btn active px-4 py-2 rounded-xl text-xs font-bold bg-white text-slate-700 border border-slate-200 transition-all">
+            All Photos (6)
+          </button>
+          <button type="button" data-gallery-tab="exterior" class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition-all">
+            Exterior &amp; Archway (2)
+          </button>
+          <button type="button" data-gallery-tab="sanctuary" class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition-all">
+            Sanctuary &amp; Altar (2)
+          </button>
+          <button type="button" data-gallery-tab="anniversary" class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-white text-slate-700 border border-slate-200 hover:bg-slate-100 transition-all">
+            26th Anniversary (2)
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div data-gallery-cat="exterior" data-gallery-index="0" class="gallery-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900 relative">
+            <img src="assets/images/church/church-exterior-panoramic.jpg" alt="CSI Church of Resurrection — Full Exterior Facade" class="gallery-card-img w-full h-full max-w-full object-cover object-center" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-slate-950/75 backdrop-blur-sm text-church-goldLight text-[10px] font-bold uppercase tracking-wider">
+              Church Exterior
+            </span>
+            <span class="absolute bottom-3 right-3 w-8 h-8 rounded-lg bg-slate-950/70 text-white flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
+              <i class="fa-solid fa-expand"></i>
+            </span>
+          </div>
+          <div class="p-4 sm:p-5">
+            <h3 class="text-base font-bold font-serif-title text-slate-900 group-hover:text-church-purple transition-colors">Full Church Exterior &amp; Facade</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Main church building and entrance archway at Vellalar Street, Mogappair West.</p>
+          </div>
+        </div>
+
+        <div data-gallery-cat="sanctuary" data-gallery-index="1" class="gallery-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900 relative">
+            <img src="assets/images/church/sanctuary-communion-altar.jpg" alt="Carved Wooden Chancel and Holy Communion Altar" class="gallery-card-img w-full h-full max-w-full object-cover object-center" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-church-purple text-white text-[10px] font-bold uppercase tracking-wider">
+              Main Sanctuary
+            </span>
+            <span class="absolute bottom-3 right-3 w-8 h-8 rounded-lg bg-slate-950/70 text-white flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
+              <i class="fa-solid fa-expand"></i>
+            </span>
+          </div>
+          <div class="p-4 sm:p-5">
+            <h3 class="text-base font-bold font-serif-title text-slate-900 group-hover:text-church-purple transition-colors">Carved Chancel &amp; Communion Table</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Sanctuary altar prepared for Holy Communion beneath the carved wooden arch.</p>
+          </div>
+        </div>
+
+        <div data-gallery-cat="exterior" data-gallery-index="2" class="gallery-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900 relative">
+            <img src="assets/images/church/church-entrance-arch.jpg" alt="Main Welcome Archway at Dusk" class="gallery-card-img w-full h-full max-w-full object-cover object-top" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-slate-950/75 backdrop-blur-sm text-church-goldLight text-[10px] font-bold uppercase tracking-wider">
+              Entrance Arch
+            </span>
+            <span class="absolute bottom-3 right-3 w-8 h-8 rounded-lg bg-slate-950/70 text-white flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
+              <i class="fa-solid fa-expand"></i>
+            </span>
+          </div>
+          <div class="p-4 sm:p-5">
+            <h3 class="text-base font-bold font-serif-title text-slate-900 group-hover:text-church-purple transition-colors">Illuminated Welcome Archway</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Front entrance gable crowned with the red cross and warm architectural lighting.</p>
+          </div>
+        </div>
+
+        <div data-gallery-cat="sanctuary" data-gallery-index="3" class="gallery-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900 relative">
+            <img src="assets/images/church/sanctuary-chancel-wide.jpg" alt="Stained-Glass Windows and Illuminated Altar Cross" class="gallery-card-img w-full h-full max-w-full object-cover object-center" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-church-purple text-white text-[10px] font-bold uppercase tracking-wider">
+              Sacred Art
+            </span>
+            <span class="absolute bottom-3 right-3 w-8 h-8 rounded-lg bg-slate-950/70 text-white flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
+              <i class="fa-solid fa-expand"></i>
+            </span>
+          </div>
+          <div class="p-4 sm:p-5">
+            <h3 class="text-base font-bold font-serif-title text-slate-900 group-hover:text-church-purple transition-colors">Stained-Glass Windows &amp; Cross</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Close-up of the Eucharistic Bread &amp; Chalice, Central Cross, and Holy Spirit Dove windows.</p>
+          </div>
+        </div>
+
+        <div data-gallery-cat="anniversary" data-gallery-index="4" class="gallery-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900 relative">
+            <img src="assets/images/church/sanctuary-chancel-floral.jpg" alt="26th Church Anniversary Thanksgiving Chancel" class="gallery-card-img w-full h-full max-w-full object-cover object-center" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-amber-500 text-slate-950 text-[10px] font-extrabold uppercase tracking-wider">
+              26th Anniversary
+            </span>
+            <span class="absolute bottom-3 right-3 w-8 h-8 rounded-lg bg-slate-950/70 text-white flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
+              <i class="fa-solid fa-expand"></i>
+            </span>
+          </div>
+          <div class="p-4 sm:p-5">
+            <h3 class="text-base font-bold font-serif-title text-slate-900 group-hover:text-church-purple transition-colors">26th Anniversary Floral Altar</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Sanctuary chancel adorned with festive floral arrangements celebrating 26 years of grace.</p>
+          </div>
+        </div>
+
+        <div data-gallery-cat="anniversary" data-gallery-index="5" class="gallery-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover-lift flex flex-col justify-between">
+          <div class="aspect-[4/3] w-full overflow-hidden bg-slate-900 relative">
+            <img src="assets/images/church/sanctuary-anniversary-arch.jpg" alt="Carved Sanctuary Arch and Festive Altar" class="gallery-card-img w-full h-full max-w-full object-cover object-center" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-amber-500 text-slate-950 text-[10px] font-extrabold uppercase tracking-wider">
+              Thanksgiving
+            </span>
+            <span class="absolute bottom-3 right-3 w-8 h-8 rounded-lg bg-slate-950/70 text-white flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity">
+              <i class="fa-solid fa-expand"></i>
+            </span>
+          </div>
+          <div class="p-4 sm:p-5">
+            <h3 class="text-base font-bold font-serif-title text-slate-900 group-hover:text-church-purple transition-colors">Sanctuary Arch Panorama</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Full perspective through the carved wooden sanctuary arch during anniversary worship.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 11. LOCATION & CONTACT US ================= -->
+  <section id="contact" class="py-16 sm:py-20 lg:py-24 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
+        <span class="inline-block text-xs font-bold tracking-widest uppercase text-church-purple bg-church-purple/10 px-3.5 py-1.5 rounded-full">
+          Get in Touch &amp; Visit
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-bold font-serif-title text-slate-900">
+          Location &amp; Contact Us
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          We warmly welcome you to worship with us. Reach out to our Pastorate Office for membership, certificates, baptism, marriage banns, or pastoral visits.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2.5 mb-2">
+                  <div class="w-8 h-8 rounded-lg bg-church-purple/10 text-church-purple flex items-center justify-center">
+                    <i class="fa-solid fa-location-dot text-sm"></i>
+                  </div>
+                  <h4 class="text-sm font-bold text-slate-900">Church Address</h4>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  <strong>CSI Church of Resurrection</strong><br>
+                  No: 3/3 &amp; 4, Vellalar Street,<br>
+                  3rd Block, Mogappair West, Chennai,<br>
+                  Tamil Nadu &ndash; 600 037, India.
+                </p>
+              </div>
+              <a href="https://maps.app.goo.gl/Mn8Xh1cZsBYGiK547" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex items-center gap-1.5 text-xs text-church-purple font-bold hover:underline">
+                <span>Open in Google Maps</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2.5 mb-2">
+                  <div class="w-8 h-8 rounded-lg bg-church-purple/10 text-church-purple flex items-center justify-center">
+                    <i class="fa-solid fa-phone text-sm"></i>
+                  </div>
+                  <h4 class="text-sm font-bold text-slate-900">Pastorate Office</h4>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Landline Phone:<br>
+                  <a href="tel:04426524024" class="text-base font-extrabold text-church-purple hover:underline">044 2652 4024</a><br>
+                  <span class="text-slate-500 mt-1 block">Mogappair West Pastorate, Diocese of Madras</span>
+                </p>
+              </div>
+              <button type="button" class="open-prayer-modal mt-4 text-xs font-bold text-church-purple hover:underline inline-flex items-center gap-1.5 text-left">
+                <i class="fa-solid fa-hands-praying text-church-gold"></i>
+                <span>Submit a Prayer Request</span>
+              </button>
+            </div>
+
+          </div>
+
+          <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm h-72 sm:h-80 relative bg-slate-100">
+            <iframe 
+              src="https://maps.google.com/maps?q=13.0854159,80.1712747&z=16&output=embed"
+              class="w-full h-full border-0" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="CSI Church of Resurrection Location Map">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-sm">
+          <h3 class="text-xl font-bold font-serif-title text-slate-900 mb-1">Send a Parish Inquiry</h3>
+          <p class="text-xs text-slate-500 mb-6">Inquiries regarding membership, baptism/confirmation certificates, marriage banns, or pastoral appointments.</p>
+
+          <form id="contactForm" class="space-y-4">
+            <div>
+              <label for="contactName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Name *</label>
+              <input type="text" id="contactName" required placeholder="e.g. Samuel David" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none bg-white">
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="contactPhone" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Phone Number *</label>
+                <input type="tel" id="contactPhone" required placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none bg-white">
+              </div>
+              <div>
+                <label for="contactSubject" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Subject</label>
+                <select id="contactSubject" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none bg-white">
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Pastoral Appointment">Pastoral Appointment</option>
+                  <option value="Baptism / Confirmation Certificate">Baptism / Confirmation</option>
+                  <option value="Holy Matrimony">Holy Matrimony</option>
+                  <option value="Cottage Prayer / House Blessing">Cottage Prayer / Blessing</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="contactMessage" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Message *</label>
+              <textarea id="contactMessage" required rows="4" placeholder="How may our pastorate office assist you?" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none bg-white resize-none"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 bg-church-purple hover:bg-church-purpleLight text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all shadow-md">
+              <i class="fa-solid fa-paper-plane mr-2"></i> Submit Inquiry
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 12. FOOTER ================= -->
+  <footer class="bg-slate-950 text-slate-300 pt-14 pb-10 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 sm:gap-10 pb-10 border-b border-slate-800">
+        
+        <div class="lg:col-span-5 space-y-3">
+          <h3 class="text-lg font-bold font-serif-title text-white">CSI Church of Resurrection</h3>
+          <p class="text-xs text-church-goldLight font-semibold">Mogappair West Pastorate &bull; Diocese of Madras</p>
+          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Church of South India (CSI), Diocese of Madras. A Christ-centered worshipping parish dedicated to the glory of God, biblical discipleship, fellowship, and compassionate service.
+          </p>
+          <p class="text-xs font-serif text-church-goldLight italic pt-1">
+            &ldquo;That they all may be one&rdquo; &mdash; John 17:21
+          </p>
+        </div>
+
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white">Quick Navigation</h4>
+          <ul class="text-xs space-y-2 text-slate-400">
+            <li><a href="#home" class="hover:text-church-goldLight transition-colors">Home</a></li>
+            <li><a href="#schedule" class="hover:text-church-goldLight transition-colors">Worship &amp; Fellowships</a></li>
+            <li><a href="#about" class="hover:text-church-goldLight transition-colors">About Our Church</a></li>
+            <li><a href="#sanctuary" class="hover:text-church-goldLight transition-colors">Sacred Sanctuary</a></li>
+            <li><a href="#ministries" class="hover:text-church-goldLight transition-colors">Church Ministries</a></li>
+            <li><a href="#leadership" class="hover:text-church-goldLight transition-colors">Leadership &amp; Office Bearers</a></li>
+            <li><a href="#sermons" class="hover:text-church-goldLight transition-colors">Sermons &amp; YouTube Live</a></li>
+            <li><a href="#gallery" class="hover:text-church-goldLight transition-colors">Church Photo Gallery</a></li>
+            <li><a href="#contact" class="hover:text-church-goldLight transition-colors">Location &amp; Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-white">Pastorate Office</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            No: 3/3 &amp; 4, Vellalar Street,<br>
+            3rd Block, Mogappair West, Chennai &ndash; 600 037.<br>
+            Phone: <a href="tel:04426524024" class="text-slate-200 font-bold hover:underline">044 2652 4024</a>
+          </p>
+
+          <div class="pt-2">
+            <h5 class="text-xs font-bold text-slate-200 uppercase tracking-wider">Connect Online</h5>
+            <div class="flex items-center gap-3 mt-2.5">
+              <a href="https://www.youtube.com/@CSICHURCHOFRESURRECTION" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-red-600/20 text-red-400 hover:bg-red-600 hover:text-white flex items-center justify-center transition-all" title="YouTube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.facebook.com/csichurchofresurrectionofficial" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-blue-600/20 text-blue-400 hover:bg-blue-600 hover:text-white flex items-center justify-center transition-all" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/csi_church_of_resurrection" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-pink-600/20 text-pink-400 hover:bg-pink-600 hover:text-white flex items-center justify-center transition-all" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://maps.app.goo.gl/Mn8Xh1cZsBYGiK547" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-emerald-600/20 text-emerald-400 hover:bg-emerald-600 hover:text-white flex items-center justify-center transition-all" title="Google Maps" aria-label="Google Maps"><i class="fa-solid fa-map-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3 text-center sm:text-left">
+        <p>&copy; 2026 CSI Church of Resurrection, Mogappair West Pastorate. All rights reserved.</p>
+        <p>Diocese of Madras &bull; Church of South India</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= 13. PRAYER REQUEST MODAL ================= -->
+  <div id="prayerModal" class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-950/75 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="prayerModalTitle">
+    <div class="modal-content bg-white w-full max-w-lg rounded-3xl shadow-2xl p-6 sm:p-8 relative max-h-[90vh] overflow-y-auto">
+      
+      <button type="button" class="close-prayer-modal absolute top-5 right-5 w-9 h-9 rounded-xl bg-slate-100 text-slate-500 hover:text-slate-800 flex items-center justify-center" aria-label="Close modal">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <div class="text-center space-y-2 mb-6">
+        <div class="w-14 h-14 mx-auto rounded-2xl bg-church-purple/10 text-church-purple flex items-center justify-center text-2xl">
+          <i class="fa-solid fa-hands-praying text-church-gold"></i>
+        </div>
+        <h3 id="prayerModalTitle" class="text-xl sm:text-2xl font-bold font-serif-title text-slate-900">Submit a Prayer Request</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">
+          Our Presbyter and Intercessory Prayer Fellowship will lift your need in prayer during Friday Fasting Prayer (10:00 AM) and pastoral devotions.
+        </p>
+      </div>
+
+      <form id="prayerForm" class="space-y-4">
+        <div>
+          <label for="prayerName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Name</label>
+          <input type="text" id="prayerName" placeholder="Enter your name (or leave blank for anonymous)" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none">
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label for="prayerPhone" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Phone / WhatsApp</label>
+            <input type="tel" id="prayerPhone" placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none">
+          </div>
+          <div>
+            <label for="prayerCategory" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Prayer Need</label>
+            <select id="prayerCategory" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none bg-white">
+              <option value="Health & Healing">Health &amp; Healing</option>
+              <option value="Spiritual Growth">Spiritual Growth</option>
+              <option value="Family & Marriage">Family &amp; Marriage</option>
+              <option value="Job, Education & Career">Job, Education &amp; Career</option>
+              <option value="Thanksgiving">Thanksgiving Praise</option>
+              <option value="Comfort in Grief">Comfort in Grief</option>
+              <option value="Other Prayer Need">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="prayerText" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Prayer Request *</label>
+          <textarea id="prayerText" required rows="4" placeholder="Please share how we may pray for you or your family..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-church-purple focus:ring-2 focus:ring-church-purple/20 text-sm outline-none resize-none"></textarea>
+        </div>
+
+        <label class="flex items-center gap-2.5 text-xs text-slate-600 cursor-pointer pt-1">
+          <input type="checkbox" id="prayerSendWhatsapp" class="w-4 h-4 rounded border-slate-300 text-church-purple focus:ring-church-purple">
+          <span>Also open WhatsApp to share this prayer request directly</span>
+        </label>
+
+        <div class="pt-2 flex flex-col sm:flex-row gap-3">
+          <button type="submit" class="flex-1 py-3.5 bg-church-purple hover:bg-church-purpleLight text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all shadow-md">
+            <i class="fa-solid fa-paper-plane mr-1.5"></i> Submit Request
+          </button>
+          <button type="button" class="close-prayer-modal py-3.5 px-5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs uppercase tracking-wider rounded-xl transition-all">
+            Cancel
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- ================= 14. FULL-SCREEN PHOTO LIGHTBOX MODAL ================= -->
+  <div id="lightboxModal" class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-3 sm:p-6 bg-slate-950/90 backdrop-blur-md" role="dialog" aria-modal="true" aria-label="Photo Lightbox">
+    <div class="modal-content relative w-full max-w-5xl bg-slate-900 border border-white/15 rounded-3xl overflow-hidden shadow-2xl">
+      
+      <div class="flex items-center justify-between px-4 sm:px-6 py-3.5 bg-slate-950/80 border-b border-white/10">
+        <div class="flex items-center gap-2.5">
+          <span id="lightboxBadge" class="px-2.5 py-0.5 rounded-md bg-church-gold text-slate-950 text-[10px] font-extrabold uppercase tracking-wider">Main Sanctuary</span>
+          <span id="lightboxCounter" class="text-xs text-slate-400 font-mono">1 / 6</span>
+        </div>
+        <button type="button" id="lightboxCloseBtn" class="w-9 h-9 rounded-xl bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors" aria-label="Close Lightbox">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="relative bg-black flex items-center justify-center min-h-[260px] sm:min-h-[420px] max-h-[70vh]">
+        <img id="lightboxImage" src="assets/images/church/church-exterior-panoramic.jpg" alt="Church Gallery Fullscreen View" class="max-h-[68vh] w-auto max-w-full h-auto object-contain mx-auto">
+
+        <button type="button" id="lightboxPrevBtn" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-slate-900/80 hover:bg-church-purple text-white border border-white/15 flex items-center justify-center shadow-lg transition-colors" aria-label="Previous Photo">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button type="button" id="lightboxNextBtn" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-slate-900/80 hover:bg-church-purple text-white border border-white/15 flex items-center justify-center shadow-lg transition-colors" aria-label="Next Photo">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="p-4 sm:p-5 bg-slate-950 text-white border-t border-white/10">
+        <h4 id="lightboxTitle" class="text-sm sm:text-lg font-bold font-serif-title text-white">CSI Church of Resurrection</h4>
+        <p id="lightboxSubtitle" class="text-xs sm:text-sm text-slate-300 mt-0.5">Mogappair West Pastorate, Diocese of Madras</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

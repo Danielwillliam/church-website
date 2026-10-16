@@ -1,0 +1,140 @@
+/* Custom CSS for CSI Church of Resurrection - Mogappair West Pastorate */
+
+:root {
+  --font-serif: 'Cinzel', Georgia, serif;
+  --font-sans: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --primary-purple: #5e1940;
+  --primary-purple-dark: #370b24;
+  --primary-purple-light: #7c2155;
+  --accent-gold: #c59b27;
+  --accent-gold-light: #e4be4c;
+  --accent-gold-soft: #fcf8ee;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1e293b;
+  background-color: #f8fafc;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+h1, h2, h3, .font-serif-title {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-purple);
+}
+
+/* Subtle Sacred Cross Pattern */
+.sacred-cross-pattern {
+  background-image: radial-gradient(#d4af37 0.75px, transparent 0.75px), radial-gradient(#d4af37 0.75px, transparent 0.75px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  opacity: 0.08;
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+}
+
+.glass-panel-dark {
+  background: rgba(34, 7, 22, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(228, 190, 76, 0.25);
+}
+
+/* Card Elevation & Hover Transitions */
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px -10px rgba(55, 11, 36, 0.12), 0 8px 14px -6px rgba(55, 11, 36, 0.06);
+}
+
+/* Active Navigation Link */
+.nav-pill-link.active {
+  background-color: var(--primary-purple);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(94, 25, 64, 0.25);
+}
+
+/* Schedule & Gallery Filter Tabs */
+.tab-btn.active,
+.gallery-tab-btn.active,
+.hero-photo-tab.active {
+  background-color: var(--primary-purple) !important;
+  color: #ffffff !important;
+  border-color: var(--primary-purple) !important;
+  box-shadow: 0 6px 16px rgba(94, 25, 64, 0.25) !important;
+}
+
+.hero-photo-tab.active {
+  background-color: var(--accent-gold) !important;
+  color: #0f172a !important;
+  border-color: var(--accent-gold) !important;
+}
+
+/* Modal Backdrop & Content Transitions */
+.modal-backdrop {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+.modal-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+.modal-content {
+  transform: scale(0.96) translateY(8px);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.modal-backdrop.active .modal-content {
+  transform: scale(1) translateY(0);
+}
+
+/* Image Zoom inside Gallery Cards */
+.gallery-card-img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.gallery-card:hover .gallery-card-img {
+  transform: scale(1.05);
+}
+
+/* Hide scrollbar for horizontal pill containers on small screens */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
