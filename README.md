@@ -1,10 +1,10 @@
-# ⛪ [Church Name] Official Website
+# ⛪ CSI Church of Resurrection Official Website
 
 [![Website Status](https://img.shields.io/badge/Website-Live-brightgreen)](https://your-church-website.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-Welcome to the official repository for the **[Church Name]** website! This project serves as our digital front door—helping visitors plan their first visit, keeping our congregation connected with upcoming events, and providing access to sermons, ministries, and online giving.
+Welcome to the official repository for the **CSI Church of Resurrection** website! This project serves as our digital front door—helping visitors plan their first visit, keeping our congregation connected with upcoming events, and providing access to sermons, ministries, and online giving.
 
 🔗 **Live Website:** [https://www.your-church-website.org](https://www.your-church-website.org)
 
